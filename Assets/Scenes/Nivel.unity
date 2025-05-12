@@ -6555,7 +6555,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210173077}
-  m_Mesh: {fileID: 4068373912626513877, guid: 601070bb9d0c21a48813cafc16d71eb8, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!4 &211039235 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6035915370888918201, guid: 149a4fa0a96e08148aab0a113d1ccef5, type: 3}
@@ -8038,7 +8038,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 100
   DopplerLevel: 1
   MinDistance: 0.72520447
   MaxDistance: 500
@@ -19087,70 +19087,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 454751108}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1593727746557118, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1974421906}
-    - targetCorrespondingSourceObject: {fileID: 1593727746557118, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1974421912}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
---- !u!1 &1974421905 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1593727746557118, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-  m_PrefabInstance: {fileID: 1974421904}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1974421906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974421905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _PixelationFactor: 0.3
-  _ColorEmulationMode: 3
-  _FullscreenColorDepth: {x: 256, y: 256, z: 256}
-  _FullscreenDitherDepth: {x: 32, y: 32, z: 32}
-  _DitheringMatrixSize: 0
-  _DitheringScale: 1
-  _InterlacingSize: 1
-  _PostProcessShader: {fileID: 4800000, guid: 56d52fd5b7c6911468179e5a7359ce0e, type: 3}
-  _PostProcessMaterial: {fileID: 0}
-  _PostProcessShaderAccurate: {fileID: 4800000, guid: 2ebed186567d3c244a87538744a62920, type: 3}
-  _PostProcessMaterialAccurate: {fileID: 0}
-  _PixelationShader: {fileID: 4800000, guid: f2da0e2a14a532548b5db043244b3df1, type: 3}
-  _PixelationMaterial: {fileID: 0}
-  _InterlacingShader: {fileID: 4800000, guid: 03ebd34214b41ef459d7ee6753b062be, type: 3}
-  _InterlacingMaterial: {fileID: 0}
-  _PreviousFrame: {fileID: 0}
-  _IsFirstFrame: 1
---- !u!114 &1974421912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974421905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1a4c69f7a9d3ea43907b5765229dc85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _TextureWarpingFactor: 0
-  _TextureWarpingMode: 0
-  _VertexGridResolution: 100
-  _VertexWobbleMode: 0
-  _UseRetroVertexLighting: 1
-  _RetroLightingNormalFactor: 0
-  _RetroLightFalloffStart: 0
-  _FlatShadingMode: 0
-  _TriangleSortMode: 0
-  _DepthDebugView: 0
 --- !u!1001 &2001292261
 PrefabInstance:
   m_ObjectHideFlags: 0
