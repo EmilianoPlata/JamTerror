@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
 public class FirstPersonMovement : MonoBehaviour
@@ -47,8 +48,7 @@ public class FirstPersonMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            // Destroys the player on contact with enemy
-            Destroy(gameObject);
+            SceneManager.LoadScene("Final");
         }
     }
 }
