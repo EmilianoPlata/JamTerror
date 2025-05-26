@@ -3,7 +3,7 @@ using UnityEngine;
 public class Cartel : MonoBehaviour
 {
     [Header("Valor del cartel")]
-    public int valor = 1;
+    [SerializeField] private int valor = 1;
 
 
     private void OnTriggerEnter(Collider other)
