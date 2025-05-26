@@ -1,57 +1,55 @@
-JamTerror
-JamTerror es un videojuego desarrollado por Moisés Falcón y Emiliano Plata como parte de una Game Jam. Este proyecto fue creado utilizando Unity y está escrito principalmente en C#, con componentes adicionales en ShaderLab, HLSL y Mathematica.
+# JamTerror
 
-Descripción
-JamTerror es un juego de terror en el que los jugadores deben recolectar carteles para poder salir del laberinto, en el camino te encontraras con horribles creatiras. 
-El objetivo es sobrevivir y descubrir los secretos ocultos en el juego.
+**JamTerror** es un videojuego desarrollado por Moisés Falcón y Emiliano Plata como parte de una Game Jam. Este proyecto fue creado utilizando Unity y está escrito principalmente en C#, con componentes adicionales en ShaderLab, HLSL y Mathematica.
 
-Características
-Desarrollo en Unity
+## Descripción
 
-Programación en C#
+JamTerror es un juego de terror en el que los jugadores deben enfrentar desafíos y resolver acertijos en un entorno oscuro y misterioso. El objetivo es sobrevivir y descubrir los secretos ocultos en el juego.
 
-Uso de shaders personalizados para efectos visuales
+## Características
 
-Participación en una Game Jam
+- Desarrollo en Unity
+- Programación en C#
+- Uso de shaders personalizados para efectos visuales
+- Participación en una Game Jam
 
-Estructura del Proyecto
+## 🎮 Gameplay
+
+Puedes ver una demostración del juego en el siguiente video:
+
+[![Ver Gameplay](https://img.youtube.com/vi/U5o0fIGSQ2w/0.jpg)](https://youtu.be/U5o0fIGSQ2w)
+
+## Estructura del Proyecto
+
 El repositorio contiene las siguientes carpetas y archivos principales:
 
-Assets/: Contiene todos los recursos del juego, como scripts, escenas, modelos y texturas.
+- `Assets/`: Contiene todos los recursos del juego, como scripts, escenas, modelos y texturas.
+- `Packages/`: Incluye las dependencias y paquetes utilizados en el proyecto.
+- `ProjectSettings/`: Configuraciones específicas del proyecto en Unity.
+- `.vscode/`: Configuraciones del entorno de desarrollo en Visual Studio Code.
+- `.gitignore`: Archivos y carpetas que Git debe ignorar.
+- `.gitattributes`: Configuraciones de atributos de Git.
 
-Packages/: Incluye las dependencias y paquetes utilizados en el proyecto.
+## Requisitos
 
-ProjectSettings/: Configuraciones específicas del proyecto en Unity.
+- Unity (versión recomendada: especificar la versión utilizada)
+- Visual Studio Code o cualquier otro editor compatible con C#
 
-.vscode/: Configuraciones del entorno de desarrollo en Visual Studio Code.
+## Instrucciones de Instalación
 
-.gitignore: Archivos y carpetas que Git debe ignorar.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/EmilianoPlata/JamTerror.git
+   ```
+2. Abre el proyecto en Unity.
+3. Asegúrate de que todas las dependencias estén instaladas.
+4. Ejecuta la escena principal para comenzar a jugar.
 
-.gitattributes: Configuraciones de atributos de Git.
+## Créditos
 
-Requisitos
-Unity (versión recomendada: especificar la versión utilizada)
+- **Moisés Falcón** - Desarrollo y diseño
+- **Emiliano Plata** - Desarrollo y programación
 
-Visual Studio Code o cualquier otro editor compatible con C#
+## Licencia
 
-Instrucciones de Instalación
-Clona el repositorio:
-
-bash
-Copiar
-Editar
-git clone https://github.com/EmilianoPlata/JamTerror.git
-Abre el proyecto en Unity.
-
-Asegúrate de que todas las dependencias estén instaladas.
-
-Ejecuta la escena principal para comenzar a jugar.
-
-Créditos
-Moisés Falcón - Desarrollo y diseño
-
-Emiliano Plata - Desarrollo y programación
-
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
-
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
